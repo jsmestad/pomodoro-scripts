@@ -1,4 +1,4 @@
-set cmd to "availble" as text
+set cmd to "available" as text
 
 tell application "HipChat"
 	activate
