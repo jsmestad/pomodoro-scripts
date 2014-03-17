@@ -1,4 +1,5 @@
-set cmd to "dnd Available in $duration minutes" as text
+set a to (current date) + 30 * minutes
+set cmd to "dnd Pairing, back @ " & a as text
 
 tell application "HipChat"
 	activate
